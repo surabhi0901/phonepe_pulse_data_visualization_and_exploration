@@ -22,7 +22,7 @@ st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration
 
 with st.sidebar:
     selected = option_menu('MENU', ["Map View", "Data Analysis", "Interactive Dashboard"], 
-                           icons=["map-fill", "", "bar-chart-line-fill", "clipboard2-pulse-fill"], 
+                           icons=["map-fill", "bar-chart-line-fill", "clipboard2-pulse-fill"], 
                            menu_icon="menu-up",
                            default_index=0,
                            orientation="vertical",
